@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title> Utrip Signup </title>
+        <style>    
+        a:link {
+        color: black;
+        }
+        a:visited {
+        color: purple;
+        }
+        a:hover {
+        color:brown;
+        }
+        a:active {
+        color: blue;
+        } 
+        </style>
+    </head>
+    <body style="text-align: center">
+        <h1 style="font-family:cursive"> Signup to <span style="color: firebrick">Utrip!</span></h1>
+        <form action='/signUp' method='post'>
+            <input type='text' placeholder="Enter username" name='username'><br/>
+            <input type='email' placeholder="Enter email" name='email'><br/>
+            <input type='password' placeholder="Enter password" name='password'><br/>
+            <input type='password' placeholder="Re-enter password" name='repassword'><br/>
+            <input type='submit' value='Signup'>
+        </form>
+        <a href="/"><button>HomePage</button></a>
+    </body>
+</html>
